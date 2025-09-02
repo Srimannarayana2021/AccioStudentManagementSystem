@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #2c2c2c; */
+  padding: 20px;
+}
+
+.container {
+  border: 2px solid #1e90ff;
+  background-color: #dcdcdc;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: black;
+  padding: 10px;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+  font-size: 18px;
+}
+
+.search-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.search-container input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #999;
+}
+
+.search-container button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.student-table {
+  width: 100%;
+  border:1px solid black;
+  margin-top: 20px;
+  
+}
+
+/* styles.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* alternate row shading */
+}
+
+tr:hover {
+  background-color: #e6f7ff; /* highlight on hover */
+}
+
+.passed {
+  background-color: #d4edda; /* greenish for passing students */
+}
+
+.failed {
+  background-color: #f8d7da; /* reddish for failed students */
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
